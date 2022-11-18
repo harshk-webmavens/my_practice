@@ -3,18 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.bg-img{
 
-    height: 100vh;
-    width: 100%;
-    background-image: url("./images/1601291746-pexels-ketut-subiyanto-4126743.webp");
-    background-size: cover;
-    background-position: center;
-    filter: blur(5px);
-    z-index: -1;
-}
 
 .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/unnamed.jpg");
+    background-size: cover;
+    background-position: center;
 }
 nav{
     display: flex;
