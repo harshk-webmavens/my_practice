@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    
+}
+.divone{
+    background-color: blue;
+    padding: 20px;
+}
+.divtow{
+    background-color: red;
+    padding: 20px;
+}
+.divthree{
+    background-color: yellow;
+    padding: 20px;
+}
