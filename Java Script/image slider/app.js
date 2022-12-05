@@ -1,14 +1,19 @@
-var images = ['images/img1.jpg', 'images/img3.jpg', 'images/img3.jpg'];
-var i =0;
+var images = ['./images/img1.jpg', './images/img2.jpg', './images/img3.jpg'];
+var i = 0;
+// var image = document.getElementsByClassName("slider")
 function slideshow() {
-    document.getElementById('images').src=images[i];
+    console.log("called",i);
+    document.getElementById("image").src=images[i];
 
-    if(i<images.lenth-1){
+    console.log(images.length);
+    if(i<images.length-1){
+        console.log("inside if");
         i++;
     }
     else {
+        console.log("inside else");
         i=0;
     }
-    setTimeout("slideshow()" , 2000);
+    setTimeout(slideshow , 2000);
 }   
-Window.onload = slideshow;
+slideshow();
