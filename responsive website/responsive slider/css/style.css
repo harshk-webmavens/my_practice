@@ -8,7 +8,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #efefef;
+
+    background-color: white;
 }
 .slide-container{
     max-width: 1120px;
