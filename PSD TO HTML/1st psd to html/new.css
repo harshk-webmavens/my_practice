@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0101a3;
+}
+
+.header{
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: 20px;
+}
+
+.logo{
+        width: 10%;
+
+
+}
+
+.list>ul>li{
+    display: inline-block;
+    
+
+
+
+}
+
+.list>ul>li>a{
+        text-decoration: none;
+        color: white;
+        
+}
