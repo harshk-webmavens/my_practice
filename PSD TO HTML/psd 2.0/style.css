@@ -217,7 +217,7 @@ a{
 .Collection_title:before {
     content: '';
     position: absolute;
-    background-image: url(img/Heading_style.png);
+    background-image: url(./images/1.jpg.jpeg);
     background-size: cover;
     width: 200px;
     height: 37px;
