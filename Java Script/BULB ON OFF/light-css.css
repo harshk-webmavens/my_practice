@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo{
+    width: 160px ;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #999;
+    padding: 5px;
+
+}
+nav ul li a:hover{
+background: green;
+color: rgb(255, 255, 255);
+border-radius: 2rem;
+transition: 0.6s;
+
+}
+button{
+    background: green;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+button span{
+    display: block;
+    background: #fff;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 31px;
+    transition: 0.3s;
+
+
+}
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 200px;
+}
+.lamp{
+   
+    width: 80%;
+    height: 300px;
+    top: 0px;
+    left: 26px;
+}
+.light{
+    position: absolute;
+    top: 97%;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 610px;
+    margin-left: -10px;
+    opacity: 0;
+    
+}
+.opc{
+    opacity: 1;
+
+}
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+
+}
+.text-container h2{
+    font-size: 65px;
+    font-weight: 400;
+
+}
+.text-container a{
+    text-decoration: none;
+    padding: 14px 40px;
+    display: inline-block;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.text-container a:hover{
+    color: #ffff;
+    transition: 0.7s;
+    background: #00986f;
+
+}
+
+.active{
+    background: #efefef;
+}
+.active span{
+    background:  #999;
+    margin-left: 0px;
+}
+
